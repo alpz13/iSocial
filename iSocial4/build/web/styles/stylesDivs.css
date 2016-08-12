@@ -1,0 +1,124 @@
+#top5, #topComida, #topBebida, #topEntretenimiento
+{
+    display: none;
+}
+
+#mostrarGeneral, #mostrarComidas, #mostrarBebidas, #mostrarEntretenimiento
+{
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding-left: 10px;
+    height: 30px;
+}
+
+#mostrarGeneral, #mostrarComidas, #mostrarBebidas, #mostrarEntretenimiento:hover
+{
+    cursor: pointer;
+}
+
+#mostrarGeneral
+{
+    background-color: #a90606;
+}
+
+#mostrarComidas
+{
+    background-color: #cc280b;
+}
+
+#mostrarBebidas
+{
+    background-color: #dc6106;
+}
+
+#mostrarEntretenimiento
+{
+    background-color: #dca106;
+}
+
+.activo
+{
+    border-radius: 10px;
+}
+
+.activo:hover
+{
+    cursor: pointer;
+    background-color: #ff3d55;
+    border-radius: 10px;
+}
+
+.botonTrans
+{
+    background-color: transparent;
+    border-radius: 10px;
+    padding-top: 7px;
+    width: 85px;
+    height: 35px;
+    border-color: transparent;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12pt;
+    font-weight: 600;
+    color: white;
+    
+}
+
+.botonTrans:hover
+{
+    cursor: pointer;
+    background-color: #ff3d55;
+}
+
+#botones
+{
+    margin-left: 70%;
+}
+
+#helloUsuario
+{
+    margin-left: 50%;
+    font: 25px "Source Sans Pro";
+    font-weight: bold;
+    font-style: italic;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.centralTable
+{
+    text-align: center;
+}
+
+.tablaCentral
+{
+    text-align: justify;
+    margin-left: 33%;
+}
+
+.button
+{
+    border-radius: 10px;
+    background-color: #a30311;
+    font: 12px "Source Sans Pro";
+    font-weight: bold;
+    color: white;
+    padding: -10px -10px -10px -10px;
+}
+
+.button:hover
+{
+    cursor: pointer;
+    background-color: #bf424e;
+}
+
+label
+{
+    font: 25px "Source Sans Pro";
+}
+
+.fotoUrl
+{
+    width: 150px;
+    height: 150px;
+}
